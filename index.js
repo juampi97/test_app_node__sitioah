@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 // Define el puerto donde correrá la aplicación
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // Inicia el servidor
 app.listen(PORT, () => {
